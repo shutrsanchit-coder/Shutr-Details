@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 340"><defs><filter id="die" x="-25%" y="-25%" width="150%" height="150%"><feMorphology in="SourceAlpha" operator="dilate" radius="8" result="d"/><feFlood flood-color="#ffffff"/><feComposite in2="d" operator="in" result="w"/><feMerge><feMergeNode in="w"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#die)" stroke="#111010" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+<!-- arms -->
+<path d="M50 188 C26 178 16 150 22 122" fill="none" stroke-width="10"/>
+<circle cx="22" cy="112" r="17" fill="#fff"/>
+<path d="M14 104 L18 96 M24 98 L26 90" fill="none" stroke-width="4"/>
+<path d="M270 196 C292 206 300 226 296 246" fill="none" stroke-width="10"/>
+<circle cx="295" cy="256" r="17" fill="#fff"/>
+<!-- legs -->
+<path d="M122 262 C120 280 116 292 112 304" fill="none" stroke-width="11"/>
+<path d="M198 262 C200 280 204 292 208 304" fill="none" stroke-width="11"/>
+<!-- sneakers -->
+<path d="M70 318 C70 302 88 296 112 300 C126 302 136 310 136 322 L136 326 L70 326 Z" fill="#fff"/>
+<path d="M70 326 L136 326" stroke-width="7"/>
+<path d="M92 302 L100 318 M108 300 L114 314" fill="none" stroke-width="3"/>
+<path d="M184 322 C184 310 194 302 208 300 C232 296 250 302 250 318 L250 326 L184 326 Z" fill="#fff"/>
+<path d="M184 326 L250 326" stroke-width="7"/>
+<path d="M212 300 L206 314 M228 302 L220 318" fill="none" stroke-width="3"/>
+<!-- viewfinder hump + shutter -->
+<rect x="112" y="54" width="96" height="48" rx="12" fill="#111010"/>
+<rect x="128" y="64" width="34" height="18" rx="4" fill="#9AA3FF" stroke-width="3"/>
+<rect x="228" y="66" width="38" height="28" rx="9" fill="#FFD81A"/>
+<!-- body -->
+<rect x="38" y="88" width="244" height="176" rx="36" fill="#E4251B"/>
+<path d="M38 128 L282 128" fill="none" stroke-width="4"/>
+<path d="M58 150 L58 240 M70 150 L70 240" fill="none" stroke-width="3" opacity=".5"/>
+<!-- flash -->
+<rect x="56" y="98" width="52" height="24" rx="5" fill="#F7F4EC" stroke-width="4"/>
+<path d="M84 102 L76 112 L84 112 L78 120" fill="none" stroke-width="3"/>
+<!-- plaster -->
+<g transform="rotate(-28 248 160)"><rect x="222" y="148" width="54" height="24" rx="10" fill="#F7F4EC" stroke-width="4"/><path d="M243 160 L255 160 M249 154 L249 166" fill="none" stroke-width="4"/></g>
+<!-- lens -->
+<circle cx="160" cy="184" r="70" fill="#111010"/>
+<circle cx="160" cy="184" r="56" fill="#2A2A33" stroke="#555" stroke-width="3"/>
+<circle cx="160" cy="184" r="42" fill="#3B46E0" stroke-width="4"/>
+<circle cx="160" cy="184" r="19" fill="#111010" stroke="none"/>
+<ellipse cx="141" cy="164" rx="11" ry="8" fill="#fff" stroke="none" transform="rotate(-30 141 164)"/>
+<circle cx="178" cy="202" r="5" fill="#fff" stroke="none"/>
+<!-- brow -->
+<path d="M108 108 Q140 96 174 104" fill="none" stroke-width="7"/>
+</g></svg>

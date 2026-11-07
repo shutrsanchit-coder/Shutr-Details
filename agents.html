@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI agents for brands — Shutr</title>
+<meta name="description" content="Shutr designs and builds custom AI agents for brands — concierge agents, content engines, social listeners and team copilots that sound like you.">
+<meta name="theme-color" content="#111010">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Shutr">
+<meta property="og:title" content="AI agents for brands — Shutr">
+<meta property="og:description" content="Shutr designs and builds custom AI agents for brands — concierge agents, content engines, social listeners and team copilots that sound like you.">
+<meta property="og:image" content="assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Permanent+Marker&family=Pixelify+Sans:wght@400..700&display=swap">
+<link rel="stylesheet" href="assets/css/shutr.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="assets/js/shutr.js" defer></script>
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-aperture" viewBox="0 0 100 100"><path fill="currentColor" d="M64.96 43.91L96.45 62.09A48 48 0 0 1 64.96 95.61ZM62.76 59.91L62.76 96.27A48 48 0 0 1 17.98 85.76ZM47.80 66.00L16.30 84.18A48 48 0 0 1 3.02 40.15ZM35.04 56.09L3.55 37.91A48 48 0 0 1 35.04 4.39ZM37.24 40.09L37.24 3.73A48 48 0 0 1 82.02 14.24ZM52.20 34.00L83.70 15.82A48 48 0 0 1 96.98 59.85Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 3v16M5 13l7 7 7-7" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 4l-8 8 8 8" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5l12.5 7.5L7 19.5z" fill="currentColor"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M6.5 5h4v14h-4zM13.5 5h4v14h-4z" fill="currentColor"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="M5 5h2.5v14H5zM19.5 5L8.5 12l11 7z" fill="currentColor"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M16.5 5H19v14h-2.5zM4.5 5l11 7-11 7z" fill="currentColor"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5S3 15 3 8.8C3 6 5.2 4 7.7 4c1.8 0 3.3 1 4.3 2.4C13 5 14.5 4 16.3 4 18.8 4 21 6 21 8.8 21 15 12 20.5 12 20.5z" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V3M7 8l5-5 5 5M5 13v7h14v-7" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 14 14" shape-rendering="crispEdges"><path fill="currentColor" d="M0 2h14v1H0zM0 11h14v1H0zM0 3h1v8H0zM13 3h1v8h-1zM1 3h2v1H1zM3 4h2v1H3zM5 5h2v1H5zM7 5h2v1H7zM9 4h2v1H9zM11 3h2v1h-2zM6 6h2v1H6z"/></symbol>
+    <filter id="distress" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="1" seed="4" result="speck"/>
+      <feColorMatrix in="speck" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -18 14" result="holes"/>
+      <feComposite in="SourceGraphic" in2="holes" operator="in" result="eaten"/>
+      <feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="9" result="warp"/>
+      <feDisplacementMap in="eaten" in2="warp" scale="2.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+</svg>
+<div class="iris" aria-hidden="true"><svg><use href="#i-aperture"/></svg></div>
+<div class="flash" aria-hidden="true"></div>
+
+<header class="hdr">
+  <a class="logo" href="index.html" aria-label="Shutr — home"><svg aria-hidden="true"><use href="#i-aperture"/></svg>Shutr<sup>®</sup></a>
+  <nav class="pillbar" aria-label="Primary">
+      <a class="pill-cta" href="contact.html">+ Start a project</a>
+      <a href="work.html">Work</a>
+      <a href="services.html">Services</a>
+      <a href="agents.html" aria-current="page">Agents</a>
+      <a href="studio.html">Studio</a>
+  </nav>
+  <div class="hdr__right">
+    <span class="clock" title="Studio time (IST)"><i aria-hidden="true"></i>IST <b data-clock>--:--</b></span>
+    <a class="btn-line" href="mailto:hello@shutr.studio"><svg aria-hidden="true"><use href="#i-mail"/></svg>Drop us a line</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mnav"><span class="menu-btn__label">Menu</span><span class="menu-btn__icon" aria-hidden="true"><i></i><i></i></span></button>
+  </div>
+</header>
+
+<div class="mnav" id="mnav">
+  <nav aria-label="Mobile">
+    <ul class="mnav__links">
+      <li><a href="work.html"><small>01</small>Work</a></li>
+      <li><a href="services.html"><small>02</small>Services</a></li>
+      <li><a href="agents.html" aria-current="page"><small>03</small>Agents</a></li>
+      <li><a href="studio.html"><small>04</small>Studio</a></li>
+      <li><a href="contact.html"><small>05</small>Contact</a></li>
+    </ul>
+  </nav>
+  <img class="sticker" src="assets/svg/flower.svg" alt="" style="--r:-12deg">
+  <div class="mnav__foot meta"><a href="mailto:hello@shutr.studio">hello@shutr.studio</a><span>IST <b data-clock>--:--</b></span></div>
+</div>
+
+<main id="main">
+  <section class="regine t-fog" style="padding-top:calc(var(--hdr-h) + 24px)" aria-labelledby="agents-title">
+    <div class="regine__frame">
+      <div class="regine__bar">
+        <span class="regine__brand">Shutr Agents</span>
+        <span class="regine__pill"><a href="contact.html">+ Build an agent</a><a href="#demo">See a demo</a></span>
+        <a class="regine__line" href="contact.html">Drop us a line</a>
+      </div>
+      <h1 class="regine__title" id="agents-title"><span class="small">Shutr<i></i></span><span class="big">AGENTS</span><span class="sr-only"> — AI agents for brands</span></h1>
+      <span class="orb" aria-hidden="true"></span>
+      <div class="regine__cards">
+        <a class="gcard glass" href="#types"><span class="gcard__chip">What they are</span><img src="assets/svg/px-cross.svg" alt=""><span class="gcard__label">See the<br>agents</span></a>
+        <a class="gcard glass is-hot" href="#demo"><span class="gcard__chip">Live demo</span><img src="assets/svg/px-chat.svg" alt=""><span class="gcard__label">Watch one<br>work</span></a>
+        <a class="gcard glass" href="#build"><span class="gcard__chip">How we build</span><img src="assets/svg/px-spark.svg" alt=""><span class="gcard__label">Explore the<br>process</span></a>
+      </div>
+      <div class="regine__foot meta"><span>AI agents for brands</span><span>Awake 24/7 · in your voice</span></div>
+    </div>
+  </section>
+
+  <section class="section t-paper wrap" aria-labelledby="what-title">
+    <div class="sec-head">
+      <p class="sec-head__label meta">(01) — What’s an agent?</p>
+      <h2 class="sec-head__title lede" id="what-title" style="font-size:clamp(30px,3.6vw,58px)">An AI agent is software that can read, reason and <em>act</em> — answer a customer, draft a post, update an order, book a call. We build them for brands, with the brand’s taste baked in.</h2>
+    </div>
+    <div class="grid">
+      <div class="manifesto__cols" style="grid-column:4 / -1;margin-top:0">
+        <div data-reveal><h3><i></i>Talks like you</h3><p style="color:var(--muted)">We write every agent’s personality the way we’d write a brand: tone, vocabulary, boundaries, even the jokes it’s allowed to make.</p></div>
+        <div data-reveal style="--d:.08s"><h3><i></i>Knows your stuff</h3><p style="color:var(--muted)">Products, policies, prices, FAQs, brand book — connected to the tools your team already uses.</p></div>
+        <div data-reveal style="--d:.16s"><h3><i></i>Knows when to stop</h3><p style="color:var(--muted)">Clear rules for when to hand over to a human, and approval steps for anything that goes public.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section t-ink wrap" id="types" aria-labelledby="types-title">
+    <div class="sec-head">
+      <p class="sec-head__label meta">(02) — Agents we build</p>
+      <h2 class="sec-head__title heavy h-m" id="types-title">Six kinds of always-on.</h2>
+    </div>
+    <div class="agents-grid">
+      <article class="acard" data-reveal><img class="px" src="assets/svg/px-chat.svg" alt=""><h3>Concierge</h3><p>Answers questions, recommends products, books appointments and tracks orders — on your site, WhatsApp or DMs.</p><ul><li>Website</li><li>WhatsApp</li><li>Instagram DMs</li></ul></article>
+      <article class="acard acard--orange" data-reveal style="--d:.06s"><img class="px" src="assets/svg/px-loop.svg" alt=""><h3>Content engine</h3><p>Turns briefs into drafts, captions, scripts and schedules. Your team approves; the engine does the heavy lifting.</p><ul><li>Captions</li><li>Scripts</li><li>Calendars</li></ul></article>
+      <article class="acard" data-reveal style="--d:.12s"><img class="px" src="assets/svg/px-eye.svg" alt=""><h3>Listener</h3><p>Reads every comment, review and mention. Flags what matters, drafts replies and spots trends before they peak.</p><ul><li>Comments</li><li>Reviews</li><li>Trends</li></ul></article>
+      <article class="acard acard--dark" data-reveal style="border:1.5px solid rgba(243,240,232,.25)"><img class="px" src="assets/svg/px-cart.svg" alt="" style="filter:invert(1)"><h3>Sales assistant</h3><p>Qualifies leads, answers pre-sale questions and follows up on abandoned carts — helpful, never pushy.</p><ul><li>Leads</li><li>Carts</li><li>Follow-ups</li></ul></article>
+      <article class="acard" data-reveal style="--d:.06s;background:var(--yellow)"><img class="px" src="assets/svg/px-bolt.svg" alt=""><h3>Team copilot</h3><p>An internal agent trained on your brand book, products and processes. New hires get answers in seconds, not Slack threads.</p><ul><li>Brand book</li><li>SOPs</li><li>Search</li></ul></article>
+      <article class="acard" data-reveal style="--d:.12s;background:var(--pink)"><img class="px" src="assets/svg/px-spark.svg" alt=""><h3>Something weirder</h3><p>Got an idea that doesn’t fit a box? Good. Those are our favourite briefs.</p><ul><li>Custom</li><li>Experimental</li></ul></article>
+    </div>
+  </section>
+
+  <section class="section t-paper wrap" id="demo" aria-labelledby="demo-title">
+    <div class="grid" style="align-items:center;row-gap:40px">
+      <div style="grid-column:span 5" class="demo-copy">
+        <p class="meta" style="margin-bottom:18px">(03) — Demo</p>
+        <h2 class="heavy h-m" id="demo-title">Watch one work.</h2>
+        <p class="lede" style="margin-top:22px;font-size:clamp(22px,2.2vw,32px)">A concierge agent for a (fictional) e-bike brand, mid-shift. In voice, on brand, and it actually <em>does</em> things.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:30px">
+          <a class="btn btn--orange" href="contact.html"><span class="plus">+</span> Build yours</a>
+        </div>
+      </div>
+      <div style="grid-column:7 / -1" class="demo-win">
+        <div class="win" data-chat>
+          <div class="win__bar"><span>nova_concierge.exe</span><span class="win__btns" aria-hidden="true"><span>_</span><span>□</span><span>×</span></span></div>
+          <div class="win__body" aria-label="Demo conversation between a customer and an AI concierge agent"></div>
+          <div class="win__input"><span>Type a message…</span><button type="button" data-replay>Replay ↺</button></div>
+          <script type="application/json">[["sys", "Website chat · Demo · Fictional brand"], ["user", "hey — does the Nova 2 handle steep hills? my commute is basically all uphill"], ["bot", "Short answer: yes, happily. The Nova 2 has a torque sensor and a dedicated Climb mode built for steep gradients. Want me to check range for your usual ride?"], ["user", "sure, about 18km each way"], ["bot", "That’s roughly 36km a day — comfortably inside range, even with hills. You’d charge every couple of days."], ["user", "nice. can I try one before I buy?"], ["bot", "Of course. There are test-ride slots this Saturday at 11:00 and 15:30. Want me to grab one?"], ["user", "11 works"], ["sys", "Action → test ride booked · confirmation sent"], ["bot", "Done — you’re booked for Saturday at 11:00. Details are in your inbox. Anything else before you ride?"]]</script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section t-navy wrap" id="build" aria-labelledby="build-title">
+    <div class="sec-head">
+      <p class="sec-head__label meta">(04) — How we build</p>
+      <h2 class="sec-head__title heavy h-m" id="build-title">From whiteboard to working shift.</h2>
+    </div>
+    <div class="steps">
+      <div class="step" data-reveal><span class="pixel">01</span><h3>Discover</h3><p>We map the jobs your team repeats, the questions customers ask and where an agent would genuinely help.</p></div>
+      <div class="step" data-reveal style="--d:.05s"><span class="pixel">02</span><h3>Design the voice</h3><p>Tone, personality and boundaries. We write the agent like we’d write a brand.</p></div>
+      <div class="step" data-reveal style="--d:.1s"><span class="pixel">03</span><h3>Build &amp; connect</h3><p>Knowledge, tools and integrations — catalogues, CRMs, calendars, inboxes.</p></div>
+      <div class="step" data-reveal style="--d:.15s"><span class="pixel">04</span><h3>Test &amp; guard</h3><p>We try to break it, then fix what breaks. Clear rules for handing over to a human.</p></div>
+      <div class="step" data-reveal style="--d:.2s"><span class="pixel">05</span><h3>Launch &amp; tune</h3><p>Ship it, watch real conversations, keep making it sharper.</p></div>
+    </div>
+  </section>
+
+  <section class="section t-fog wrap" aria-labelledby="safe-title">
+    <div class="grid" style="row-gap:40px">
+      <div style="grid-column:span 6" class="safe-a">
+        <p class="meta" style="margin-bottom:18px">(05) — Brand-safe by design</p>
+        <h2 class="heavy h-m" id="safe-title">Smart, not reckless.</h2>
+        <ul class="linklist" style="margin-top:28px">
+          <li><span>Human handover built in from day one</span></li>
+          <li><span>Approval steps for anything that goes public</span></li>
+          <li><span>Tone checks against your brand voice</span></li>
+          <li><span>Access scoped to the job — nothing more</span></li>
+        </ul>
+      </div>
+      <div style="grid-column:8 / -1" class="safe-b">
+        <p class="meta" style="margin-bottom:18px">Where agents can live</p>
+        <div class="channels"><span>Website chat</span><span>WhatsApp</span><span>Instagram DMs</span><span>Email</span><span>Slack</span><span>Shopify</span><span>+ your stack</span></div>
+        <img src="assets/svg/px-globe.svg" alt="" style="width:clamp(120px,14vw,200px);image-rendering:pixelated;margin-top:36px">
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="strip strip--yellow" href="contact.html" aria-label="Start a project with Shutr" style="display:block;text-decoration:none">
+  <div class="strip__track" style="--speed:30s"><span class="strip__item">Start a project<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item"><em>let’s make noise</em><svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">hello@shutr.studio<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">Social<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">Creative direction<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">AI agents<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">Start a project<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item"><em>let’s make noise</em><svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">hello@shutr.studio<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">Social<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">Creative direction<svg aria-hidden="true"><use href="#i-aperture"/></svg></span><span class="strip__item">AI agents<svg aria-hidden="true"><use href="#i-aperture"/></svg></span></div>
+</a>
+<footer class="ftr torn-top halftone">
+  <div class="ftr__inner">
+    <div class="ftr__grid">
+      <p class="ftr__about">Shutr is a social media, creative direction &amp; AI&#8209;agent studio, founded by Sanchit&nbsp;Chopra. <a href="contact.html">Say hello&nbsp;→</a></p>
+      <nav aria-label="Footer">
+        <h4 class="stamp">Index</h4>
+        <ul class="linklist">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="agents.html">AI agents</a></li>
+          <li><a href="studio.html">Studio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h4 class="stamp">Services</h4>
+        <ul class="linklist">
+          <li><a href="services.html#social">Social media</a></li>
+          <li><a href="services.html#creative">Creative direction</a></li>
+          <li><a href="services.html#creative">Content</a></li>
+          <li><a href="services.html#process">Campaigns</a></li>
+          <li><a href="agents.html">AI agents</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="stamp">Elsewhere</h4>
+        <ul class="linklist">
+          <!-- TODO: add real profile URLs -->
+          <li><a href="#" data-todo="instagram">Instagram</a></li>
+          <li><a href="#" data-todo="linkedin">LinkedIn</a></li>
+          <li><a href="#" data-todo="behance">Behance</a></li>
+          <li><a href="#" data-todo="youtube">YouTube</a></li>
+        </ul>
+      </div>
+      <form class="mailing" data-mailto="hello@shutr.studio" data-subject="Add me to the Shutr list">
+        <label for="ml-email">mailing list</label>
+        <div class="mailing__row">
+          <input id="ml-email" type="email" name="email" required placeholder="you@brand.com" autocomplete="email">
+          <button type="submit">Join</button>
+        </div>
+        <p>Occasional notes on social, craft and agents. No spam, ever.</p>
+      </form>
+    </div>
+    <div class="ftr__word">
+      <p class="display" aria-hidden="true">Shutr</p>
+      <svg class="aperture-big" aria-hidden="true"><use href="#i-aperture"/></svg>
+    </div>
+    <div class="ftr__base meta">
+      <span>© <span data-year>2026</span> Shutr. All frames reserved.</span>
+      <span>Founder &amp; CEO — Sanchit Chopra</span>
+      <a href="mailto:hello@shutr.studio">hello@shutr.studio</a>
+      <a href="#top">Rewind ↑</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
